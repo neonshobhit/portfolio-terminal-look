@@ -1,0 +1,40 @@
+{
+  "clear": null,
+  "about": {
+    "cue": "About Me",
+    "options":{
+
+    },
+    "response": "Hi I'm Shobhit"
+  },
+  "skills": {
+    "cue": "My skills",
+    "response": "NodeJS"
+  },
+  "experience": {
+    "cue": "My experience",
+    "response": "5yrs<br>10Yrs"
+  },
+  "projects": {
+    "cue": "My projects",
+    "response": "Splitwise Copy"
+  },
+  "contact": {
+    "cue": "How to contact me.",
+    "response": "Email: shobhitmaheshwari18@gmail.com"
+  },
+  "social": {
+    "cue": "My social handles",
+    "response": "linkedin.com/neonshobhit"
+  },
+  "resume": {
+    "cue": "Get my resume",
+    "response": "https://resume.com"
+  },
+  "": {
+    "cue": "",
+    "response": ""
+  },
+  "help": null,
+  "man": null
+}
