@@ -2,14 +2,12 @@
   "clear": null,
   "about": {
     "cue": "About Me",
-    "options":{
-
-    },
+    "options": {},
     "response": "Hi I'm Shobhit"
   },
   "skills": {
     "cue": "My skills",
-    "response": "NodeJS"
+    "response": "<table><tr><td>Development</td><td>NodeJS, Haskell, Python</td></tr>  <tr><td>Systems</td><td>Kubernetes, AWS tools, Victoria Metrics, Postgres, Clickhouse, Redis, Firestore</td></tr>  <tr><td>Programming</td><td>C++, JavaScript</td></tr>  <tr><td>Hobbies</td><td>Badminton, Chess</td></tr></table>"
   },
   "experience": {
     "cue": "My experience",
@@ -17,19 +15,19 @@
   },
   "projects": {
     "cue": "My projects",
-    "response": "Splitwise Copy"
+    "response": "<table><tr><td>Spotify playlists merger</td><td>Leveraged Spotify API to fetch and merge selected playlists, creating a consolidated playlist for the user while efficiently managing old playlists by deletion.</td></tr>  <tr><td>Crossword Puzzle</td><td>Implemented UI-based questions and answers, with user progress tracking stored on the backend using Supabase PostgreSQL (PSQL).</td></tr>  <tr><td>Bill-Splitting App</td><td>Developed an application facilitating both equal and unequal splitting of bills among friends, featuring a simplified transaction management system.</td></tr>  </table>"
   },
   "contact": {
-    "cue": "How to contact me.",
-    "response": "Email: shobhitmaheshwari18@gmail.com"
+    "cue": "How to contact me",
+    "response": "<table><tr><td>Email</td><td><a href=\"mailto:shobhitmaheshwari18@gmail.com\" style=\"text-decoration: none; color:yellow;\">shobhitmaheshwari18@gmail.com</a></td></tr>  <tr><td>Phone</td><td><a href=\"tel:+919413460572\" style=\"text-decoration: none; color:yellow;\">+91 9413460572</a></td></tr>  <tr><td>LinkedIn</td><td><a href=\"https://www.linkedin.com/in/neonshobhit/\" style=\"text-decoration: none; color:yellow;\">neonshobhit</a></td></tr>  <tr><td>Github</td><td><a href=\"https://github.com/neonshobhit\" style=\"text-decoration: none; color:yellow;\">neonshobhit</a></td></tr></table>"
   },
   "social": {
     "cue": "My social handles",
-    "response": "linkedin.com/neonshobhit"
+    "response": "<table><tr><td>Email</td><td><a href=\"mailto:shobhitmaheshwari18@gmail.com\" style=\"text-decoration: none; color:yellow;\">shobhitmaheshwari18@gmail.com</a></td></tr>  <tr><td>Whatsapp</td><td><a href=\"tel:+919413460572\" style=\"text-decoration: none; color:yellow;\">+91 9413460572</a></td></tr>  <tr><td>LinkedIn</td><td><a href=\"https://www.linkedin.com/in/neonshobhit/\" style=\"text-decoration: none; color:yellow;\">neonshobhit</a></td></tr>  <tr><td>Github</td><td><a href=\"https://github.com/neonshobhit\" style=\"text-decoration: none; color:yellow;\">neonshobhit</a></td></tr></table>"
   },
   "resume": {
     "cue": "Get my resume",
-    "response": "<a href=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\"><p>Link</p></a><br><object data=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" type=\"application/pdf\" width=\"95%\" height=\"250px\"><br>"
+    "response": "<a href=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" style=\"text-decoration: none; color:white;\"><p><u>Click here to download.</u></p></a><br><object data=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" type=\"application/pdf\" width=\"95%\" height=\"250px\"><br>"
   },
   "": {
     "cue": "",

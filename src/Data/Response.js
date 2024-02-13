@@ -14,12 +14,17 @@ export function getResponse(command) {
     commandsJson[command] === null &&
     (command === "help" || command === "man")
   ) {
-    res = "";
+    res = "<table>";
+
     for (let i in commandsJson) {
       if (commandsJson[i] === null) continue;
       if (i === "") continue
-      res += i + ": " + commandsJson[i].cue + "<br>";
+      res += "<tr>"
+      res += "<td>" + i + "</td>"
+      res += "<td>" + commandsJson[i].cue + "</td>"
+      res += "</tr>"
     }
+    res += "</table>"
   } else {
     res = commandsJson[command].response;
   }
