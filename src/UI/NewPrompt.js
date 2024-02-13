@@ -3,10 +3,11 @@ import UserLog from "./UserLog";
 import * as Response from "../Data/Response";
 import "../Styles/NewPrompt.css"
 function NewPrompt({ onAddPrompt, promptHistory, updateHistory }) {
-  const [inputValue, setInputValue] = useState("");
+  let [inputValue, setInputValue] = useState("");
 
   function submitForm(e) {
     e.preventDefault();
+    inputValue = inputValue.toLowerCase()
     if (inputValue==="") {
       onAddPrompt({
         inputValue,

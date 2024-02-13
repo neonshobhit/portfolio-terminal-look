@@ -10,7 +10,7 @@ function PromptsHistory({ prompts }) {
           <div key={index}>
             <div className="prompt-form">
               <UserLog />
-              <h5>{prompt.inputValue}</h5>
+              <p className="prompt-form">{prompt.inputValue}</p>
             </div>
             <PromptAnswer answer={prompt.answer} />
           </div>

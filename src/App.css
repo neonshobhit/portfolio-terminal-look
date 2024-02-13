@@ -52,3 +52,7 @@
   flex-direction: column;
   /* height: 40vh; */
 }
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+}

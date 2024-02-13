@@ -4,10 +4,10 @@ function UserLog() {
   return (
     <div className="prompt-form">
       {/* <span> */}
-        <h5 style={{color:"#166534"}}>guest@shobhit-portfolio</h5>
-        <h5>:</h5>
-        <h5 style={{color: "#1D4ED8"}}>~</h5>
-        <h5>$</h5>
+        <p style={{color:"#166534"}}>guest@shobhit-portfolio</p>
+        <p>:</p>
+        <p style={{color: "#1D4ED8"}}>~</p>
+        <p>$</p>
       {/* </span> */}
     </div>
   );
