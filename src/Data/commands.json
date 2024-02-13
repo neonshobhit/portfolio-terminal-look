@@ -29,7 +29,7 @@
   },
   "resume": {
     "cue": "Get my resume",
-    "response": "<iframe src=\"/Data/resume.pdf\" width=\"640\" height=\"480\"></iframe><br>"
+    "response": "<a href=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\"><p>Link</p></a><br><object data=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" type=\"application/pdf\" width=\"95%\" height=\"250px\"><br>"
   },
   "": {
     "cue": "",
