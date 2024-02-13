@@ -4,7 +4,7 @@ export function getResponse(command) {
   let action = undefined;
   console.log(commandsJson[command]);
   if (commandsJson[command] === undefined) {
-    res = "Not supported.";
+    res = "Command not found";
   } else if (commandsJson[command] === null && command === "clear") {
     res = null;
     action = "CLEAR";
