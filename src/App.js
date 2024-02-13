@@ -1,9 +1,7 @@
-import logo from "./logo.svg";
+
 import React, { useState } from "react";
 import "./App.css";
-import UserLog from "./UI/UserLog";
 import NewPrompt from "./UI/NewPrompt";
-import PromptAnswer from "./UI/PromptAnswer";
 import PromptsHistory from "./UI/PromptHistory";
 import * as Response from "./Data/Response";
 // function UserLog() {

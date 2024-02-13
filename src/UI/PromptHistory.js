@@ -1,5 +1,6 @@
 import UserLog from "./UserLog";
 import PromptAnswer from "./PromptAnswer";
+import React from "react";
 import "../Styles/NewPrompt.css";
 
 function PromptsHistory({ prompts }) {
