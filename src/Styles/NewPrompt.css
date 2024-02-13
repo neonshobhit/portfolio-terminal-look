@@ -6,7 +6,7 @@
   height: 4vh;
   justify-content: flex-start;
   align-items: center;
-  margin: 0.5vh 0.2vw;
+  margin: 0.5vh 0.4vw;
   font-size: 1.25rem;
   font-weight: 400;
 }
@@ -18,6 +18,8 @@ input {
   outline: none;
   caret-color: white;
   color: white;
+  padding: 0;
+  margin-left: 0.4vw;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 1.25rem;
   /* font: bold; */
@@ -27,7 +29,7 @@ input {
 }
 
 .prompt-answer {
-  margin: 0vh 0.4vw;
+  margin-left: 0.8vw;
   font-weight: 400;
   font-size: 1.25rem;
 }

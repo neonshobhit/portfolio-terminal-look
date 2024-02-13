@@ -29,7 +29,7 @@
   },
   "resume": {
     "cue": "Get my resume",
-    "response": "https://resume.com"
+    "response": "<iframe src=\"/Data/resume.pdf\" width=\"640\" height=\"480\"></iframe><br>"
   },
   "": {
     "cue": "",
