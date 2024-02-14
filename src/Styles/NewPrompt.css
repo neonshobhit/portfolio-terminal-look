@@ -7,6 +7,7 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0.5vh 0.4vw;
+  color: #e7eae5;
   font-size: 1.25rem;
   font-weight: 400;
 }
@@ -16,8 +17,8 @@ input {
   border: none;
   /* width: 100vw; */
   outline: none;
-  caret-color: white;
-  color: white;
+  caret-color: #e7eae5;
+  color: #e7eae5;
   padding: 0;
   margin-left: 0.4vw;
   font-family: 'Ubuntu Mono', monospace;
@@ -31,11 +32,17 @@ input {
 .prompt-answer {
   margin-left: 0.8vw;
   font-weight: 400;
+  color: #e7eae5;
   font-size: 1.25rem;
 }
 
-td {
+td, dl{
+  color: #e7eae5;
   padding-right:0.4vw;
+}
+
+.highlights {
+  color: yellow;
 }
 /* 
 h5 {

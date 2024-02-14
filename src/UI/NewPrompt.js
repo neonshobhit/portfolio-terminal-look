@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import UserLog from "./UserLog";
 import * as Response from "../Data/Response";
 import "../Styles/NewPrompt.css"
 function NewPrompt({ onAddPrompt, promptHistory, updateHistory }) {
   let [inputValue, setInputValue] = useState("");
-
+  const inputref = useRef(null)
   function submitForm(e) {
     e.preventDefault();
     inputValue = inputValue.toLowerCase()
@@ -30,13 +30,18 @@ function NewPrompt({ onAddPrompt, promptHistory, updateHistory }) {
     }
   }
 
+  useEffect(() => {
+    inputref.current?.scrollIntoView({ behavior: "smooth" })
+  }, [promptHistory])
+
   return (
     <form className="prompt-form" onSubmit={submitForm}>
         <UserLog />
-        <input
+        <input ref={inputref}
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           autoFocus
+          placeholder="help"
         />
     </form>
   );

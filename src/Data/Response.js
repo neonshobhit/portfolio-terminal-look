@@ -4,7 +4,7 @@ export function getResponse(command) {
   let action = undefined;
   console.log(commandsJson[command]);
   if (commandsJson[command] === undefined) {
-    res = "Command not found";
+    res = "Command not found. Use <span class=\"highlights\"><i>help</i></span> command to list all valid commands.";
   } else if (commandsJson[command] === null && command === "clear") {
     res = null;
     action = "CLEAR";
