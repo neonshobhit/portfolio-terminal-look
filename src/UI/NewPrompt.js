@@ -7,7 +7,6 @@ function NewPrompt({ onAddPrompt, promptHistory, updateHistory }) {
   const inputref = useRef(null)
   function submitForm(e) {
     e.preventDefault();
-    inputValue = inputValue.toLowerCase()
     if (inputValue==="") {
       onAddPrompt({
         inputValue,

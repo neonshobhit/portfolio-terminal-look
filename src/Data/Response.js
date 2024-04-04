@@ -1,5 +1,6 @@
 import commandsJson from "./commands.json";
-export function getResponse(command) {
+export function getResponse(parsedCommand) {
+  const command = parsedCommand.command
   let res = undefined;
   let action = undefined;
   console.log(commandsJson[command]);
@@ -25,6 +26,20 @@ export function getResponse(command) {
       res += "</tr>"
     }
     res += "</table>"
+  } else if (commandsJson[command].action) {
+
+    for (const i of parsedCommand.options) {
+      const variables = {
+        response: undefined,
+        parameter: i.arg,
+        error: undefined,
+      }
+      
+      // eslint-disable-next-line no-eval
+      variables.response = eval(commandsJson[command].action[i.command])
+      res = variables.response
+    }
+
   } else {
     res = commandsJson[command].response;
   }
@@ -48,7 +63,7 @@ export function parseCommand(inputValue) {
   console.log(command);
   const parsedCommand = {
     options: [],
-    command: command[0],
+    command: command[0].toLowerCase(),
     args: [],
   };
   for (let i = 1; i < command.length; ++i) {
@@ -108,8 +123,7 @@ export function parseCommand(inputValue) {
       action: null,
     };
   } else {
-    const { res, action } = getResponse(command[0]);
-    console.log(res, action);
+    const { res, action } = getResponse(parsedCommand)
     return {
       inputValue,
       answer: res,

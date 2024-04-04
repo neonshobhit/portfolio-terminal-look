@@ -9,13 +9,17 @@
     "cue": "My skills",
     "response": "<table><tr><td>Development</td><td>NodeJS, Haskell, Python</td></tr>  <tr><td>Systems</td><td>Kubernetes, AWS tools, Victoria Metrics, Postgres, Clickhouse, Redis, Firestore</td></tr>  <tr><td>Programming</td><td>C++, JavaScript</td></tr>  <tr><td>Hobbies</td><td>Badminton, Chess</td></tr></table>"
   },
+  "contributions": {
+    "cue": "My Open Source Contributions",
+    "response": "<ul>     <li>Implemented complete <a href=\"https://github.com/spliit-app/spliit/pull/114\" style=\"text-decoration: none; color:yellow;\">Recurring-Expense</a> feature for the <a href=\"https://github.com/spliit-app/spliit\" style=\"text-decoration: none; color:yellow;\">Spliit.App</a> </li>      </ul>"
+  },
   "experience": {
     "cue": "My experience",
     "response": "<dl><dt><b>Software Developer Engineer</b> - Juspay</dt><dd>June 2022 — Current. (Banglore, on-site)</dd><ul><li>Implemented an <span class=\"highlights\">automated predictive scaling</span> system for applications, leveraging historical traffic data to achieve seamless and proactive scaling. The result is a remarkable scale-up capability of <span class=\"highlights\">3000 transactions per second (TPS)</span>, ensuring optimal performance under varying workloads.</li>         <li>Implemented an advanced <span class=\"highlights\">dynamic rate limiter</span> to secure applications, integrated with an intelligent scaling mechanism for the application server. This setup dynamically scales up as needed, ensuring optimal performance under varying workloads.</li>                   <li>Achieved a <span class=\"highlights\">40% reduction in infrastructure costs</span> through the implementation of automated right-sizing for pods resource requests. This enhancement includes <span class=\"highlights\">accelerated scale-down and scale-up processes</span>, ensuring swift adaptation to changing demands and optimizing resource utilization for increased efficiency.</li>                         <li>Enhanced visibility into operational metrics, including cost, transactions per second (TPS), and resource requirements. Implemented automated features for estimating costs during scale-ups, predicting resource needs, and <span class=\"highlights\">dynamically utilizing both Spot and On-Demand nodes based on demand fluctuations</span>. This optimization strategy aims to enhance efficiency and reduce infrastructure costs.</li></ul>                                                          <dt><b>Software Developer Engineer (Intern)</b> - Juspay</dt><dd>June 2021 — June 2022. (Banglore, on-site)</dd><ul><li>Integrated a business rule engine and deployed a Puppeteer-based <span class=\"highlights\">HTML to PDF converter</span> to streamline the mailing process of signed documents, ensuring efficiency in document handling and delivery.</li>               <li>Engineered a user-friendly <span class=\"highlights\">Web recorder</span> incorporating DOM Manipulation and RRWebPlayer. This innovative approach enhances the user experience by enabling dynamic interaction tracking, ensuring a seamless and intuitive recording process.</li>                            <li>Designed an intuitive onboarding flow for lenders and merchants, streamlining the process through dynamic and user-friendly clicks. This design ensures a smooth and efficient experience for users during the onboarding process.</li>                                                 <li>Implemented <span class=\"highlights\">asymmetric encryption</span> to guarantee robust data security during transit, fortifying the protection of sensitive information.</li></ul>                               <dt><b>Software Developer Intern </b> - Infoware</dt><dd>June 2020 — Dec 2020. Ahemdabad (Remote)</dd><ul><li>Developed a <span class=\"highlights\">dynamic E-Commerce</span> application supporting multiple sellers and products, featuring variable pricing based on distinct pin codes. Additionally, implemented advanced <span class=\"highlights\">chat functionalities</span> using Socket.IO to enhance product support, enabling users to seamlessly exchange messages, attachments, audio, and more.</li></ul></dl>"
   },
   "projects": {
     "cue": "My projects",
-    "response": "<table><tr><td>Spotify playlists merger</td><td>Leveraged Spotify API to fetch and merge selected playlists, creating a consolidated playlist for the user while efficiently managing old playlists by deletion.</td></tr>  <tr><td>Crossword Puzzle</td><td>Implemented UI-based questions and answers, with user progress tracking stored on the backend using Supabase PostgreSQL (PSQL).</td></tr>  <tr><td>Bill-Splitting App</td><td>Developed an application facilitating both equal and unequal splitting of bills among friends, featuring a simplified transaction management system.</td></tr>  </table>"
+    "response": "<table><tr><td>Search Engine</td><td>Developed a basic search engine with indexing, filtering, and sorting for efficient data retrieval.</td></tr>  <tr><td>K-Sorted global UID generator</td><td>Designed a K-sorted global UID generator application.</td></tr> <tr><td>Spotify playlists merger</td><td>Leveraged Spotify API to fetch and merge selected playlists, creating a consolidated playlist for the user while efficiently managing old playlists by deletion.</td></tr>  <tr><td>Crossword Puzzle</td><td>Implemented UI-based questions and answers, with user progress tracking stored on the backend using Supabase PostgreSQL (PSQL).</td></tr>  <tr><td>Bill-Splitting App</td><td>Developed an application facilitating both equal and unequal splitting of bills among friends, featuring a simplified transaction management system.</td></tr>  </table>"
   },
   "contact": {
     "cue": "How to contact me",
@@ -28,6 +32,20 @@
   "resume": {
     "cue": "Get my resume",
     "response": "<a href=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" style=\"text-decoration: none; color:#e7eae5;\"><p><u>Click here to download.</u></p></a><br><object data=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" type=\"application/pdf\" width=\"95%\" height=\"250px\"><br>"
+  },
+  "b64": {
+    "cue": "Perform base64 encode/ decode operations. -e for encode, -d for decode.",
+    "action": {
+      "e": "btoa(variables.parameter)",
+      "d": "atob(variables.parameter)"
+    }
+  },
+  "json": {
+    "cue": "Perform json parse/ stringify operations. -p for parse, -s for stringify.",
+    "action": {
+      "p": "JSON.parse(variables.parameter)",
+      "s": "JSON.stringify(variables.parameter)"
+    }
   },
   "": {
     "cue": "",
