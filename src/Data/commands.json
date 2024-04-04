@@ -7,7 +7,7 @@
   },
   "skills": {
     "cue": "My skills",
-    "response": "<table><tr><td>Development</td><td>NodeJS, Haskell, Python</td></tr>  <tr><td>Systems</td><td>Kubernetes, AWS tools, Victoria Metrics, Postgres, Clickhouse, Redis, Firestore</td></tr>  <tr><td>Programming</td><td>C++, JavaScript</td></tr>  <tr><td>Hobbies</td><td>Badminton, Chess</td></tr></table>"
+    "response": "<table><tr><td>Development</td><td>NodeJS, Haskell, Python, Golang</td></tr>  <tr><td>Systems</td><td>Kubernetes, AWS tools, Victoria Metrics, Postgres, Clickhouse, Redis, Firestore</td></tr>  <tr><td>Programming</td><td>C++, JavaScript</td></tr>  <tr><td>Hobbies</td><td>Badminton, Chess</td></tr></table>"
   },
   "contributions": {
     "cue": "My Open Source Contributions",

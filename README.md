@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Portfolio Terminal Look
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Portfolio Terminal Look** is a unique portfolio website built with React, TypeScript, and Styled-Components. It mimics a terminal interface, making it stand out from traditional portfolio websites. Here are the key features:
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **Responsive Design**: The website adapts well to different screen sizes, ensuring a seamless experience for users on various devices.
 
-### `npm start`
+2. **Command History**: Easily view and navigate through your command history using the arrow keys.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **PWA and Offline Support**: The website is a Progressive Web App (PWA), allowing users to access it even when offline.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Centralized Configuration**: The `commands.json` file serves as a single place to define your portfolio sections. Add your sections there for easy management.
 
-### `npm test`
+5. **Base64 Encode/Decode**: Encode and decode data in Base64 format directly within the terminal. Useful for handling binary data or encoding sensitive information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **JSON Parse/Stringify**: Parse and stringify JSON data effortlessly. Type "help" in the terminal to explore available commands related to JSON manipulation.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Project**:
+```git clone https://github.com/neonshobhit/portfolio-terminal-look.git```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navigate to the Project Directory**:
+```cd portfolio-terminal-look```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Remove Remote Origin** (if needed):
+```git remote remove origin```
 
-### `npm run eject`
+4. **Install Dependencies**:
+```npm install```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **Start the Development Server**:
+```npm run start```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Use the Terminal
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Type "help" to view available commands and get started with your portfolio customization.
