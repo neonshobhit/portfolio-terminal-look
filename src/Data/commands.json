@@ -36,15 +36,15 @@
   "b64": {
     "cue": "Perform base64 encode/ decode operations. -e for encode, -d for decode.",
     "action": {
-      "e": "btoa(variables.parameter)",
-      "d": "atob(variables.parameter)"
+      "e": "(function(){const x=btoa(variables.parameter); navigator.clipboard.writeText(x); return x;})()",
+      "d": "(function(){const x=atob(variables.parameter); navigator.clipboard.writeText(x); return x;})()"
     }
   },
   "json": {
     "cue": "Perform json parse/ stringify operations. -p for parse, -s for stringify.",
     "action": {
-      "p": "JSON.parse(variables.parameter)",
-      "s": "JSON.stringify(variables.parameter)"
+      "p": "(function(){const x=JSON.parse(variables.parameter); navigator.clipboard.writeText(x); return x;})()",
+      "s": "(function(){const x=JSON.stringify(variables.parameter); navigator.clipboard.writeText(x); return x;})()"
     }
   },
   "": {
