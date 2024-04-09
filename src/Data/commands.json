@@ -47,6 +47,12 @@
       "s": "(function(){const x=JSON.stringify(variables.parameter); navigator.clipboard.writeText(x); return x;})()"
     }
   },
+  "wa": {
+    "cue": "Open whatsapp from phone number. -i for indian number",
+    "action": {
+      "i": "(function(){const number=variables.parameter;return `https://wa.me/91` + number.replaceAll(` `, ``).replace(`+91`, ``).replaceAll(`+`, ``)})()"
+    }
+  },
   "": {
     "cue": "",
     "response": ""
