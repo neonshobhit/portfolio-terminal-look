@@ -31,7 +31,7 @@
   },
   "resume": {
     "cue": "Get my resume",
-    "response": "<a href=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" style=\"text-decoration: none; color:#e7eae5;\"><p><u>Click here to download.</u></p></a><br><object data=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" type=\"application/pdf\" width=\"95%\" height=\"250px\"><br>"
+    "response": "<a href=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/Shobhit_Resume.pdf?alt=media\" style=\"text-decoration: none; color:#e7eae5;\"><p><u>Click here to download.</u></p></a><br><object data=\"https://firebasestorage.googleapis.com/v0/b/shobhit-portfolio-terminal.appspot.com/o/shobhit-resume-2024.pdf?alt=media\" type=\"application/pdf\" width=\"95%\" height=\"250px\"><br>"
   },
   "b64": {
     "cue": "Perform base64 encode/ decode operations. -e for encode, -d for decode.",
